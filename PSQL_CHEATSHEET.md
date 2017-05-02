@@ -20,6 +20,9 @@ INSERT INTO <name of table> VALUES( 12345, 'Steve');
 ## Deleting a row
 DELETE FROM <name of table> WHERE ID = <id you assigned>;
 
+## Deleting multiple rows
+DELETE FROM <name of table> WHERE ID > 2
+
 ## Updating existing row
 UPDATE <name of table> SET <id> = '23456' WHERE <id> = '12345'
 
