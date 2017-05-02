@@ -57,3 +57,6 @@ student.destroy #puts that row into student so you can destroy student and the r
 
 One line version:  Student.first(name: 'Name').destroy
 http://datamapper.org/docs/create_and_destroy.html
+
+## Duplicating a database
+CREATE DATABASE newdb WITH TEMPLATE originaldb OWNER dbuser;
