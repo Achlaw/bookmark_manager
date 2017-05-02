@@ -1,9 +1,0 @@
-require 'sinatra'
-
-class Bookmarks < Sinatra::Base
-
-  get '/links' do
-
-  end
-
-end

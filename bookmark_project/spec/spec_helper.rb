@@ -1,13 +1,14 @@
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
-# require './app.rb'
+require './app.rb'
 require 'data_mapper'
 require 'dm-postgres-adapter'
 require 'dm-migrations'
 require_relative './../app/models/link'
+require './app/models/link.rb'
 
-# Capybara.app = Bookmarks
+Capybara.app = Bookmarks
 
 ENV['RACK_ENV'] = 'test'
 

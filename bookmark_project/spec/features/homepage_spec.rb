@@ -7,8 +7,7 @@ require_relative '../../app/models/link'
 
 feature 'Homepage displays links' do
   scenario 'viewing links' do
-    Link.create(url: 'http://google.com', title: 'Google')
-    p Link.all
+    # Link.create(url: 'http://google.com', title: 'Google')
     visit '/links'
     expect(page).to have_content('http://google.com')
   end
